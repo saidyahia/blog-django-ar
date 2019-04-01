@@ -22,7 +22,7 @@ body{
 }
 
 .bg-light{
-    background-color: #CCC !important;
+    background-color: #EEE !important;
 }
 
 /* Start Sidebar */
@@ -31,7 +31,6 @@ body{
     
 }
 .latest-post .latest-post-item, .latest-comment .latest-comment-item{
-    border-bottom: 1px dotted #CCC;
     padding: 6px;
 }
 
