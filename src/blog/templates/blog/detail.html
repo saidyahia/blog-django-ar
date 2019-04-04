@@ -8,4 +8,11 @@
     <h3>{{post.title}}</h3>
     <p>{{post.content}}</p>
 </div>
+<div>
+    <h1 class="border-bottom">التعليقات</h1>
+    {% for comment in comments %}
+    <small>{{comment.name}} في {{comment.comment_date|date:'d-m-Y'}}</small>
+    <p>{{comment.body}}</p>
+    {% endfor %}
+</div>
 {% endblock content %}
