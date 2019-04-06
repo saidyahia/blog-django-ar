@@ -4,7 +4,7 @@ Project from scratch for arab web developers who search for a full project using
 
 # Libraries and framework used:
 <ul>
-    <li>Django 2.1.7</li>
+    <li>Django 2.2</li>
     <li>Bootstrap 4.3.x</li>
     <li>jQuery 3.3.1</li>
     <li>Font awesome</li>
